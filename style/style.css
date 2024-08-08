@@ -854,6 +854,9 @@ color: #ffffff;
   outline: none;
 
 }
+#activity{
+  width: calc(100% - 20px);
+}
 .bmi .calculate form select option{
   color: rgb(255, 255, 255);
   background-color: #222222;
@@ -1633,7 +1636,7 @@ width: 100%;
 border-top: 2px solid rgba(255, 255, 255, 0.116);
 }
 .four p{
- font-size: 20px;
+ font-size: 1rem;
  color:rgba(255, 255, 255, 0.5) ;
 }
 
