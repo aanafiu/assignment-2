@@ -339,6 +339,14 @@ margin: 20px 0;
 }
 .box{
   width: 300px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  /* background-color: #E6533C; */
+}
+.box .details{
+text-align: center;
   /* background-color: #E6533C; */
 }
 .box img{
@@ -359,6 +367,8 @@ margin: 20px 0;
 .box .details .all-p{
   font-size: 16px;
   width: 100%;
+  padding: 0 5%;
+  text-align: center;
   /* background-color: aquamarine; */
 }
 
@@ -629,6 +639,7 @@ margin: 20px 0;
   padding: 0;
   margin: 20px auto;
   text-align: center;
+  font-size: 18px;
 }
 .store-container{
   /* background-color: azure; */
@@ -648,8 +659,9 @@ padding: 20px;
 display: flex;
 flex-direction: column;
 align-items: left;
-/* justify-content: space-around; */
+justify-content: space-around;
 gap: 10px;
+height: 100%;
 }
 
 .product img{
@@ -666,6 +678,7 @@ gap: 10px;
 }
 .product .all-p{
 margin: 10px auto;
+font-size: 16px;
 /* width: 70%; */
 /* text-align: center; */
 }
@@ -848,20 +861,26 @@ color: #ffffff;
   padding: 20px;
   font-size: 18px;
   border-radius:10px ;
-  color: white;
+  /* color: white; */
+  color: hsla(0, 0%, 100%, 0.5); 
+  font-weight: 400;
   background-color: rgba(255, 255, 255, 0.137);
   border: 0;
   outline: none;
 
 }
+
 #activity{
-  width: calc(100% - 20px);
+  width: calc(100% - 21px);
 }
+
 .bmi .calculate form select option{
   color: rgb(255, 255, 255);
   background-color: #222222;
   outline: none;
 }
+
+
 .bmi .calculate .details{
   width: 100%;
   /* background-color: #300600; */
@@ -901,6 +920,7 @@ input::placeholder
  /* .option-clr{
   color: rgba(255, 255, 255, 0.507);
  } */
+
 
 
 
@@ -985,7 +1005,7 @@ input::placeholder
 position: relative;
 border-radius: 20px;
 width: auto;
-height: 300px;
+height: 350px;
 
  }
  .team1::before {
@@ -1003,11 +1023,11 @@ height: 300px;
   background-image: url(../images/trainer2.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
 position: relative;
 border-radius: 20px;
 width: auto;
-height: 300px;
+height: 350px;
 
  }
  .team2::before {
@@ -1025,11 +1045,11 @@ height: 300px;
   background-image: url(../images/trainer3.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
 position: relative;
 border-radius: 20px;
 width: auto;
-height: 300px;
+height: 350px;
 
  }
  .team3::before {
@@ -1046,11 +1066,11 @@ height: 300px;
   background-image: url(../images/trainer4.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
 position: relative;
 border-radius: 20px;
 width: auto;
-height: 300px;
+height: 350px;
 
  }
  .team4::before {
@@ -1067,11 +1087,11 @@ height: 300px;
   background-image: url(../images/trainer5.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
 position: relative;
 border-radius: 20px;
 width: auto;
-height: 300px;
+height: 350px;
 
 /* background-color: #E6533C; */
  }
@@ -1089,12 +1109,12 @@ height: 300px;
   background-image: url(../images/trainer6.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
 position: relative;
 border-radius: 20px;
 background-color: #E6533C;
 width: auto;
-height: 300px;
+height: 350px;
  }
  .team6::before {
   content: ' ';
