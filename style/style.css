@@ -1478,6 +1478,16 @@ display: none;
 
 
 /* Challenging Store */
+
+.challenging-headline {
+
+  font-size: 2em;
+
+}
+.challenging-details .all-p {
+  font-size: 1rem;
+}
+
 .store-headline h1{
   font-size: 2rem;
 
@@ -1503,11 +1513,17 @@ display: none;
 
 
     /* BMI Calculation */
+    .bmi-details .container .details .headline {
+  
+      font-size: 2em;
+
+    }
     .bmi{
       width: 100%;
       background-color:#222222;
       padding: 10px 0;
       /* margin: 20px auto; */
+  
     }
     
     .bmi .container{
@@ -1515,6 +1531,26 @@ display: none;
       justify-content: center;
       align-items: center;
      margin: 20px auto;
+    }
+    .bmi-details .container .details{
+      width: 100%;
+    
+    }
+    
+.bmi .container .headline{
+
+  font-size: 2em;
+  width: 100%;
+
+  }
+
+    .bmi .chart table{
+      margin: 30px auto;
+      /* background-color: #d41e1e; */
+      width: 100%;
+    }
+    .bmi .chart th{
+      font-size: 1rem;
     }
 
 
