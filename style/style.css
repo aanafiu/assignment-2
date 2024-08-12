@@ -1552,6 +1552,29 @@ display: none;
     .bmi .chart th{
       font-size: 1rem;
     }
+    .bmi .calculate form input[type = text]{
+      width: calc((100% - 20px) / 2 );
+      padding: 20px;
+
+      color: white;
+
+      background-color: rgba(255, 255, 255, 0.137);
+
+    }
+    .bmi .calculate form select{
+      width: calc((100% - 20px) / 2 );
+      padding: 20px;
+    }
+    
+    #activity{
+      width: calc(100% - 21px);
+    }
+    
+    .bmi .calculate form select option{
+      color: rgb(255, 255, 255);
+      background-color: #222222;
+      outline: none;
+    }
 
 
 
